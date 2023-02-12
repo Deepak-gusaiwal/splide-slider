@@ -1,0 +1,80 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* for style started */
+body{
+    background-color: aliceblue;
+}
+.ContentBox{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    padding: 1rem 0.6rem;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    box-shadow: 2px 2px 5px rgb(0, 140, 255);
+    background-color: rgb(255, 200, 98);
+}
+.btn{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.3rem;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: 300ms;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.imageBox{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+/* style ended */
+
+/* for slider styling started */
+
+.splide{
+    padding: 3rem 4rem;
+}
+.splide__slide{
+    
+    margin: 0.8rem 0;
+}
+.splide__arrow{
+    background-color: rgba(255, 189, 66);
+    border: 2px solid black;
+    font-size: 1.2rem;
+}
+.splide__arrow svg{
+    fill: rgb(255, 255, 255);
+}
+.splide__pagination__page.is-active{
+    background-color: rgb(255, 187, 61);
+    border: 2px solid black;
+}
+.splide__arrow--prev{
+    right: 1rem;
+    left: auto;
+    top: 46%;
+}
+.splide__arrow--next{
+    position: absolute;
+    right: 1rem;
+    top: 54%;
+}
+/* for slider styling ended */
