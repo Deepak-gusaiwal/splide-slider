@@ -51,6 +51,9 @@ img {
 /* for slider styling started */
 
 /* media querryes */
+.splide {
+    padding: 3rem 0rem;
+  }
 @media (min-width: 640px) {
   .splide {
     padding: 3rem 4rem;
